@@ -52,7 +52,27 @@ function App() {
 
             <Grid container spacing={3}>
               <Grid item xs={3}>
-                <Paper elevation={1} className={mui.paper}>
+                <Paper elevation={3} className={mui.paper}>
+                  <Typography>
+                    Hello React
+                  </Typography>
+                </Paper>
+              </Grid>
+            </Grid>
+
+            <Grid container spacing={3}>
+              <Grid item xs={3}>
+                <Paper elevation={3} className={mui.paper}>
+                  <Typography>
+                    Hello React
+                  </Typography>
+                </Paper>
+              </Grid>
+            </Grid>
+
+            <Grid container spacing={3}>
+              <Grid item xs={3}>
+                <Paper elevation={3} className={mui.paper}>
                   <Typography>
                     Hello React
                   </Typography>
