@@ -26,19 +26,36 @@ function App() {
 
   return (
     <div className="App">
-      <div>Fish</div>
-      <h1 className="text-warning">Hello React</h1>
 
       <Grid container spacing={3}>
         <Grid item xs={12}>
           <Paper elevation={2} className={mui.paper}>
             <Typography>
-              <div className="bg-dark border border-warning">
+              <div className="container-fluid bg-dark border border-warning">
                 <Paper elevation={2}>
                   <h1>Hello React</h1>
                 </Paper>
               </div>
             </Typography>
+          </Paper>
+        </Grid>
+      </Grid>
+
+      <Grid container spacing={3}>
+        <Grid item xs={12}>
+          <Paper elevation={1} className={mui.paper}>
+
+            <Grid container spacing={3}>
+              <Grid item xs={3}>
+                <Paper elevation={1} className={mui.paper}>
+                  <Typography>
+                    Hello React
+                  </Typography>
+                </Paper>
+              </Grid>
+            </Grid>
+
+
           </Paper>
         </Grid>
       </Grid>
