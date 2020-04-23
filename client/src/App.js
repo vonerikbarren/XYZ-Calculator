@@ -15,7 +15,12 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
+    backgroundColor: "grey"
+  },
+  grid: {
+    backgroundColor: "black"
   }
+
 
 }));
 
@@ -27,11 +32,11 @@ function App() {
   return (
     <div className="App">
 
-      <Grid container spacing={3}>
+      <Grid className={mui.grid} container spacing={3}>
         <Grid item xs={12}>
           <Paper elevation={2} className={mui.paper}>
             <Typography>
-              <div className="container-fluid bg-dark border border-warning">
+              <div className="container-fluid jumbotron bg-dark border border-warning">
                 <Paper elevation={2}>
                   <h1>Hello React</h1>
                 </Paper>
