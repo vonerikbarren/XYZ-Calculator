@@ -33,7 +33,11 @@ function App() {
         <Grid item xs={12}>
           <Paper elevation={2} className={mui.paper}>
             <Typography>
-              Hello React
+              <div className="bg-dark border border-warning">
+                <Paper elevation={2}>
+                  <h1>Hello React</h1>
+                </Paper>
+              </div>
             </Typography>
           </Paper>
         </Grid>
