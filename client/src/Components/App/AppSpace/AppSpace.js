@@ -38,7 +38,17 @@ function AppSpace() {
       <Grid item xs={12}>
         <Paper elevation={3} className={mui.paper}>
 
-          <Typography>Hello Test</Typography>
+          <div className="AppBodyMain">
+            <div className="AppBody">
+              <Grid container spacing={3}>
+                <Grid item xs={12}>
+                  <div className='Application'> Hello
+
+                  </div>
+                </Grid>
+              </Grid>
+            </div>
+          </div>
 
         </Paper>
       </Grid>

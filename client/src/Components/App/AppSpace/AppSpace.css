@@ -1,0 +1,20 @@
+.AppBodyMain {
+  height: 700px;
+
+}
+
+.AppBody {
+  height: 500px;
+  background-color: navajowhite;
+  margin-top: 200px;
+}
+
+.Application {
+  background: grey;
+  margin-top: 200px;
+
+}
+
+/* .Calculator {
+  
+} */
