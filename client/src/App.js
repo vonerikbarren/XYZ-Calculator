@@ -40,8 +40,6 @@ function App() {
                 <Paper elevation={2}>
                   <h1>Hello React</h1>
                   <Typography> Whats up </Typography>
-                  <Typography> Whats up </Typography>
-                  <Typography> Whats up </Typography>
                 </Paper>
               </div>
             </Typography>
