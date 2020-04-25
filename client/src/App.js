@@ -8,7 +8,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
 // -> Application Imports <-
-
+import AppSpace from './Components/App/AppSpace/AppSpace';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="App">
-
+      <AppSpace />
 
 
     </div>
