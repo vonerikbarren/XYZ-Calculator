@@ -39,6 +39,7 @@ function App() {
               <div className="container-fluid jumbotron bg-dark border border-warning">
                 <Paper elevation={2}>
                   <h1>Hello React</h1>
+                  <Typography> Whats up </Typography>
                 </Paper>
               </div>
             </Typography>
