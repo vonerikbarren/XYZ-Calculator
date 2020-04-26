@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
 
 
 
-function Button() {
+function CalcButton() {
 
   const mui = useStyles();
 
@@ -38,19 +38,7 @@ function Button() {
     <Grid container spacing={3}>
       <Grid item xs={12}>
         <Paper elevation={3} className={mui.paper}>
-
-          <div className="AppBodyMain">
-            <div className="AppBody">
-              <Grid container spacing={3}>
-                <Grid item xs={12}>
-                  <div className='Application'> Hello
-
-                  </div>
-                </Grid>
-              </Grid>
-            </div>
-          </div>
-
+          <Button className={mui.button}>Click</Button>
         </Paper>
       </Grid>
     </Grid>

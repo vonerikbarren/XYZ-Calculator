@@ -45,8 +45,8 @@ function AppSpace() {
             <div className="AppBody">
               <Grid container spacing={3}>
                 <Grid item xs={12}>
-                  <div className='Application'> Hello
-
+                  <div className='Application'>
+                    <CalcButton />
                   </div>
                 </Grid>
               </Grid>
