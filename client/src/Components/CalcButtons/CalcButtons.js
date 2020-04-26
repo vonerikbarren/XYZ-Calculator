@@ -22,14 +22,18 @@ const useStyles = makeStyles((theme) => ({
   },
   grid: {
     backgroundColor: "black"
+  },
+  button: {
+
   }
+
 
 
 }));
 
 
 
-function CalcButton() {
+function CalcButton(props) {
 
   const mui = useStyles();
 
@@ -38,7 +42,7 @@ function CalcButton() {
     <Grid container spacing={3}>
       <Grid item xs={12}>
         <Paper elevation={3} className={mui.paper}>
-          <Button className={mui.button}>Click</Button>
+          <Button className={mui.button}>{props.number}</Button>
         </Paper>
       </Grid>
     </Grid>
