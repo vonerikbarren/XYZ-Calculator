@@ -24,6 +24,9 @@ const useStyles = makeStyles((theme) => ({
   },
   grid: {
     backgroundColor: "black"
+  },
+  AppBody: {
+    background: "yellow"
   }
 
 
@@ -42,15 +45,15 @@ function AppSpace() {
         <Paper elevation={3} className={mui.paper}>
 
           <div className="AppBodyMain">
-            <div className="AppBody">
+            <Paper elevation={3} className="AppBody">
               <Grid container spacing={3}>
                 <Grid item xs={12}>
-                  <div className='Application'>
+                  <Paper className='Application'>
                     <CalcButton number="2" />
-                  </div>
+                  </Paper>
                 </Grid>
               </Grid>
-            </div>
+            </Paper>
           </div>
 
         </Paper>

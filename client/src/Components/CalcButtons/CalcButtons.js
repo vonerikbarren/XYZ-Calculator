@@ -24,7 +24,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "black"
   },
   button: {
-
+    backgroundColor: "#282c34",
+    color: "white",
   }
 
 
