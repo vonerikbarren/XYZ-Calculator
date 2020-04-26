@@ -8,6 +8,9 @@ import Container from '@material-ui/core/Container';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
+// -> Component imports <-
+import CalcButton from '../../CalcButtons/CalcButtons';
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
