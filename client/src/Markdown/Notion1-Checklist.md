@@ -16,5 +16,6 @@ and build something useful and something that can be quickly deployed. The goal 
 [ X ] - Creating the AppSpace
 [ X ] - Creating the AppBody
 [ X ] - Working with Props for the Button Component
+[ ] - Create Application.js and Put the component into AppSpace.js
 [ ] - Creating the Application
 
