@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: theme.palette.text.secondary,
-    backgroundColor: "grey"
+    backgroundColor: "#282c34"
   },
   grid: {
     backgroundColor: "black"
@@ -41,6 +41,15 @@ export default function Application() {
 
   return (
     <Grid container spacing={3}>
+      <Grid container spacing={3}>
+        <Grid item xs={12}>
+
+        </Grid>
+      </Grid>
+
+
+
+
       <Grid item xs={3}>
 
       </Grid>
