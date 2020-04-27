@@ -43,6 +43,15 @@ export default function Application() {
 
     <Grid container spacing={3}>
 
+      <Grid item xs={12}>
+
+
+
+        <Paper elevation={3} className={mui.paper}>
+
+        </Paper>
+      </Grid>
+
 
 
 
@@ -84,6 +93,8 @@ export default function Application() {
       <Grid item={4}>
 
       </Grid>
+
+      {/*--> Final Closing <-- */}
     </Grid >
 
 
