@@ -30,7 +30,11 @@ const useStyles = makeStyles((theme) => ({
   },
   AppBody: {
     background: "yellow"
+  },
+  Typography: {
+    color: "white",
   }
+
 
 
 }));
@@ -44,9 +48,19 @@ export default function Application() {
     <Grid container spacing={3}>
 
       <Grid item xs={12}>
+
         <Paper elevation={3} className={mui.paper}>
-          <Typography>Numbers</Typography>
+          <Typography className={mui.Typography}>
+            React Calculator
+          </Typography>
         </Paper>
+
+        <Paper elevation={3} className={mui.paper}>
+          <Typography className={mui.Typography}>
+            React Calculator
+          </Typography>
+        </Paper>
+
       </Grid>
 
 
