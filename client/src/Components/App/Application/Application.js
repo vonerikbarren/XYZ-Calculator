@@ -48,6 +48,19 @@ export default function Application() {
     <Grid container spacing={3}>
 
       <Grid item xs={12}>
+        <Grid container spacing={3}>
+          <Grid item xs={3}>
+
+          </Grid>
+
+          <Grid item xs={5}>
+
+          </Grid>
+
+          <Grid item xs={4}>
+
+          </Grid>
+        </Grid>
 
         <Paper elevation={3} className={mui.paper}>
           <Typography className={mui.Typography}>
