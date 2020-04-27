@@ -9,7 +9,6 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
 // -> Component imports <-
-import CalcButton from '../../CalcButtons/CalcButtons';
 import Application from '../Application/Application';
 
 
@@ -44,8 +43,6 @@ function AppSpace() {
     <Grid container spacing={3}>
       <Grid item xs={12}>
         <Paper elevation={3} className={mui.paper}>
-
-
 
           <div className="AppBodyMain">
             <Paper elevation={3} className="AppBody">
