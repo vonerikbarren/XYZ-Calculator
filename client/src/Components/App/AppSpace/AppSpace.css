@@ -4,14 +4,14 @@
 }
 
 .AppBody {
-  height: 500px;
+  height: 50px;
   background-color: navajowhite;
-  margin-top: 200px;
+  margin-top: 20px;
 }
 
 .Application {
   background: green;
-  margin-top: 200px;
+  margin-top: 0px;
 
 }
 
