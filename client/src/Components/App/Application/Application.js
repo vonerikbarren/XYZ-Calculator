@@ -62,6 +62,7 @@ export default function Application() {
         <CalcButton number="3" />
         <CalcButton number="6" />
         <CalcButton number="9" />
+        <CalcButton number="=" />
 
       </Grid>
 
