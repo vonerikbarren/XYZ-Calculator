@@ -48,11 +48,11 @@ export default function Application() {
     <Grid container spacing={3}>
       <Grid item xs={12}>
 
-        <Paper elevation={3} className={mui.paper}>
+        <div>
           <Typography className={mui.Typography}>
             React Calculator
           </Typography>
-        </Paper>
+        </div>
 
         <br />
 
@@ -64,7 +64,7 @@ export default function Application() {
           <Grid item xs={5}>
             <Paper elevation={3} className={mui.paper}>
               <Typography className={mui.Typography}>
-                React Calculator
+                0
               </Typography>
             </Paper>
           </Grid>
@@ -84,7 +84,7 @@ export default function Application() {
           <Grid item xs={5}>
             <Paper elevation={3} className={mui.paper}>
               <Typography className={mui.Typography}>
-                React Calculator
+                0
               </Typography>
             </Paper>
           </Grid>
