@@ -10,6 +10,7 @@ import Typography from '@material-ui/core/Typography';
 
 // -> Component imports <-
 import CalcButton from '../../CalcButtons/CalcButtons';
+import Application from '../Application/Application';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -51,44 +52,7 @@ function AppSpace() {
               <Grid container spacing={3}>
                 <Grid item xs={12}>
                   <Paper className='Application'>
-                    <Grid container spacing={3}>
-                      <Grid item xs={3}>
-
-                      </Grid>
-
-                      <Grid item xs={1}>
-                        <CalcButton number="1" />
-                        <CalcButton number="4" />
-                        <CalcButton number="7" />
-                      </Grid>
-
-                      <Grid item xs={1}>
-                        <CalcButton number="2" />
-                        <CalcButton number="5" />
-                        <CalcButton number="8" />
-                        <CalcButton number="0" />
-                      </Grid>
-
-                      <Grid item xs={1}>
-                        <CalcButton number="3" />
-                        <CalcButton number="6" />
-                        <CalcButton number="9" />
-
-                      </Grid>
-
-                      <Grid item xs={2}>
-                        <CalcButton number="+" />
-                        <CalcButton number="-" />
-                        <CalcButton number="x" />
-                        <CalcButton number="÷" />
-
-                      </Grid>
-
-                      <Grid item={4}>
-
-                      </Grid>
-                    </Grid>
-
+                    <Application />
                   </Paper>
                 </Grid>
               </Grid>
