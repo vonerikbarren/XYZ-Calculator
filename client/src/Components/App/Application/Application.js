@@ -40,32 +40,9 @@ export default function Application() {
   const mui = useStyles();
 
   return (
-    <div>
-      <Grid container spacing={3}>
-        <Grid container spacing={3}>
-          <Grid item xs={12}>
 
-            <Grid container spacing={3}>
-              <Grid item xs={4}>
+    <Grid container spacing={3}>
 
-              </Grid>
-
-              <Grid item xs={5}>
-
-              </Grid>
-
-              <Grid item xs={3}>
-
-              </Grid>
-
-            </Grid>
-          </Grid>
-
-          <Paper elevation={3} className={mui.paper}>
-
-          </Paper>
-        </Grid>
-      </Grid>
 
 
 
@@ -107,9 +84,7 @@ export default function Application() {
       <Grid item={4}>
 
       </Grid>
-    </div>
-
-
+    </Grid >
 
 
   );
